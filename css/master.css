@@ -454,7 +454,7 @@ h5 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #292929;
-    text-transform: uppercase;
+    text-transform: capitalize;
     cursor: default;
 }
 
