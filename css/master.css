@@ -454,6 +454,7 @@ h5 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #292929;
+    text-transform: uppercase;
     cursor: default;
 }
 
@@ -491,6 +492,11 @@ h5 {
 .Dectaphone{
     background: url("../photo/dectaphone.jpg");
     background-size: cover;
+}
+
+.power{
+    background: url(../photo/power.jpg);
+    background-size: contain;
 }
 
 .btn-projects{
