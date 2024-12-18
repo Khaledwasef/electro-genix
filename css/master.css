@@ -330,13 +330,17 @@ h5 {
     transform: translateZ(40px);
 }
 
+.all {
+    background: url("../photo/");
+}
+
 .Abdelrahman {
     background: url("../photo/Abdelrahman\ Ali\ Abdelhak.jpg");
     background-size: cover;
 }
 
 .Elzoghby {
-    background: url("../photo/elzoz.jpg");
+    background: url("../photo/all.jpg");
     background-size: cover;
 }
 
