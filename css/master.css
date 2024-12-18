@@ -231,7 +231,13 @@ h4 {
     align-items: center;
     justify-content: space-around;
 }
-
+.all{
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .about .container-image,
 .contact .container-image {
     width: 35%;
@@ -330,8 +336,9 @@ h5 {
     transform: translateZ(40px);
 }
 
-.all {
-    background: url("../photo/");
+.alldiv {
+    background: url("../photo/all.jpg");
+    background-size: cover;
 }
 
 .Abdelrahman {
@@ -340,7 +347,7 @@ h5 {
 }
 
 .Elzoghby {
-    background: url("../photo/all.jpg");
+    background: url("../photo/elzoz.jpg");
     background-size: cover;
 }
 
