@@ -319,6 +319,15 @@ h5 {
     width: 100%;
 }
 
+.all .card-member{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    margin: 20px;
+}
+
 .card-member {
     width: 300px;
     height: 450px;
