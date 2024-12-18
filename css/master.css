@@ -320,12 +320,35 @@ h5 {
 }
 
 .all .card-member{
-    width: 400px;
+    width: 700px;
     height: 550px;
     position: relative;
     transform-style: preserve-3d;
     transition: 1s;
     margin: 20px;
+}
+.all .card-member-body .bg:nth-child(1) {
+    height: 50%;
+    transform-origin: left;
+    top: 0;
+    left: -30%;
+    transform: rotate(-10deg);
+}
+
+.all .card-member-body .bg:nth-child(2) {
+    height: 50%;
+    transform-origin: right;
+    top: 5%;
+    right: -30%;
+    transform: rotate(-10deg);
+}
+
+.all .card-member-body .bg:nth-child(3) {
+    height: 50%;
+    transform-origin: left;
+    top: 70%;
+    left: -30%;
+    transform: rotate(-10deg);
 }
 
 .card-member {
